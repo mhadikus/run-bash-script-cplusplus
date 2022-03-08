@@ -1,14 +1,13 @@
 # run-bash-script-cplusplus
- How to run a bash script on Linux with C++
 
- Install Visual Studio Code
- https://linuxize.com/post/how-to-install-visual-studio-code-on-centos-7/
+How to run a bash script on Linux with C++
+- Use `system()` to execute a shell command
+- https://linux.die.net/man/3/system
 
- Install GCC
- https://linuxize.com/post/how-to-install-gcc-compiler-on-centos-7/
-
- Install the C++ Extension
- https://code.visualstudio.com/docs/languages/cpp
+Setup
+- Install Visual Studio Code https://linuxize.com/post/how-to-install-visual-studio-code-on-centos-7/
+- Install GCC https://linuxize.com/post/how-to-install-gcc-compiler-on-centos-7/
+- Install the C++ Extension https://code.visualstudio.com/docs/languages/cpp
 
 How to build the executable
 - Launch Visual Studio Code
