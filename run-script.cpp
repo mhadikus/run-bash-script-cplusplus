@@ -20,5 +20,7 @@ int main()
     std::cout << "Executing \"" << script_path << "\" ..." ;
     std::cout << std::endl;
 
-    system(script_path.c_str());
+    int exit_code = system(script_path.c_str());
+    std::cout << "Exit code = " << exit_code;
+    std::cout << std::endl;
 }
