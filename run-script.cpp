@@ -8,7 +8,7 @@ int main()
     std::string wait_to_finish;
     std::cout << std::endl;
     std::cout << "Enter path to bash script: ";
-    std::cin >> script_path;
+    std::getline(std::cin, script_path);
 
     std::cout << "Wait for command to finish? (y/n): ";
     std::cin >> wait_to_finish;
