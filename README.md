@@ -16,6 +16,7 @@ How to build the executable
 
 Run the built executable from a command prompt.
 When prompted, enter an absolute path to a script, e.g., ./myscript
+
 You can also enter a command with args, e.g., "echo foo bar"
 
 If not waiting, the program runs the script as "./myscript &"
